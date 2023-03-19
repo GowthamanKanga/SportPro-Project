@@ -1,0 +1,43 @@
+﻿@*//Member Gowthaman Kangatharan - 101247677*@
+@{
+    ViewData["Title"] = "Add Customer Page";
+}
+
+<div>
+    <h2>Add Customer</h2>
+    <label>First Name</label>
+    <br />
+    <input type = "text" name = "Fname" id = "Fname" required/>
+    <br />
+    <label>Last Name</label>
+    <br />
+    <input type = "text" name = "Lname" id = "Lname" required/>
+    <br />
+    <label>Address</label>
+    <br />
+    <input type = "text" name = "Address" id = "Adress" required/>
+    <br />
+    <label>City</label>
+    <br />
+    <input type = "text" name = "City" id = "City" required/>
+    <br />
+    <label>State</label>
+    <br />
+    <input type = "text" name = "State" id = "State" required/>
+    <br />
+    <label>Countty</label>
+    <br />
+    <input type = "text" name = "Country" id = "Country" required/>
+    <br />
+    <label>Email</label>
+    <br />
+    <input type = "text" name = "Email" id = "Email" required/>
+    <br />
+    <label>Phone</label>
+    <br />
+    <input type = "text" name = "Phone" id = "Phone" required/>
+    <br />
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="SaveCustomer" type="submit" name="saveBtn">Save </a>
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="Customer" type="submit" name="calBtn">Cancel</a>
+</div>
+

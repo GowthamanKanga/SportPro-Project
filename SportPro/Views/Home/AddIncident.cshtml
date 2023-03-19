@@ -1,0 +1,38 @@
+﻿@*//Member Gowthaman Kangatharan - 101247677*@
+@{
+    ViewData["Title"] = "Edit Incident Page";
+}
+
+<div>
+    <h2>Edit Incident</h2>
+    <label>Customer</label>
+    <br />
+    <input type = "text" name = "customer" id = "CustomerId" required/>
+    <br />
+    <label>Product</label>
+    <br />
+    <input type = "text" name = "product" id = "productId" required/>
+    <br />
+    <label>Title</label>
+    <br />
+    <input type = "text" name = "title" id = "titleID" required/>
+    <br />
+    <label>Description</label>
+    <br />
+    <input type = "text" name = "description" id = "descriptionId" required/>
+    <br />
+    <label>Technician</label>
+    <br />
+    <input type = "text" name = "technicianIncident" id = "technicianIncident_Id" required/>
+    <br />
+    <label>Date Opened</label>
+    <br />
+    <input type = "text" name = "dateOp" id = "dateOp_Id" required/>
+    <br />
+    <label>Date Opened</label>
+    <br />
+    <input type = "text" name = "dateCl" id = "dateCl_Id" required/>
+    <br />
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="SaveProduct" type="submit" name="saveBtn">Save </a>
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="Products" type="submit" name="calBtn">Cancel</a>
+</div>

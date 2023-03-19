@@ -1,0 +1,26 @@
+﻿@*//Member Gowthaman Kangatharan - 101247677*@
+@{
+    ViewData["Title"] = "Add Product Page";
+}
+
+<div>
+    <h2>Product Manger</h2>
+    <label>Code</label>
+    <br />
+    <input type = "text" name = "Code" id = "Code" required/>
+    <br />
+    <label>Name</label>
+    <br />
+    <input type = "text" name = "Name" id = "Name" required/>
+    <br />
+    <label>Yearly Price</label>
+    <br />
+    <input type = "text" name = "yrlyPrice" id = "yrlyPrice" required/>
+    <br />
+    <label>Released Date</label>
+    <br />
+    <input type = "text" name = "reDate" id = "reDate" required/>
+    <br />
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="SaveProduct" type="submit" name="saveBtn">Save </a>
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="Products" type="submit" name="calBtn">Cancel</a>
+</div>

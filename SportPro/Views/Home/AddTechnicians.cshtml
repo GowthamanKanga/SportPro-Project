@@ -1,0 +1,22 @@
+﻿@*//Member Gowthaman Kangatharan - 101247677*@
+@{
+    ViewData["Title"] = "Add Technicians Page";
+}
+
+<div>
+    <h2>Add Technicians</h2>
+    <label>Name</label>
+    <br />
+    <input type = "text" name = "Name" id = "Name" required/>
+    <br />
+    <label>Email</label>
+    <br />
+    <input type = "text" name = "Email" id = "Email" required/>
+    <br />
+    <label>Phone</label>
+    <br />
+    <input type = "text" name = "Phone" id = "Phone" required/>
+    <br />
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="SaveTechnicians" type="submit" name="saveBtn">Save </a>
+    <a class = "btn btn-primary" asp-controller="Home" asp-action="Technicians" type="submit" name="calBtn">Cancel</a>
+</div>
